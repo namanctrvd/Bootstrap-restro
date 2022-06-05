@@ -27,6 +27,15 @@ $carousel-item-height: 300px;
     @include zero-margin(20px, 0px);
 }
 
+.text-center {
+    margin-top: 16px;
+}
+
+#copyright {
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
 .jumbotron {
     @include zero-margin(70px, 30px);
     background: $background-light ;
