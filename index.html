@@ -349,25 +349,10 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-    <script>
-
-        // Modal functions
+    <script>        
         $(document).ready(function () {
-            $("#loginBtn").click(function () {
-                $("#loginModal").modal();
-            });
-        });
-
-        $(document).ready(function () {
-                $("#reserveBtn").click(function () {
-                    $("#reserveModal").modal();
-                });
-            });
-        
-        $(document).ready(function () {
-                $("#mycarousel").carousel({ interval: 3000 });
-        });
-        $("#carouselButton").click(function () {
+            $("#mycarousel").carousel({ interval: 3000 });
+            $("#carouselButton").click(function () {
                 if ($("#carouselButton").children("span").hasClass('fa-pause')) {
                     $("#mycarousel").carousel('pause');
                     $("#carouselButton").children("span").removeClass('fa-pause');
@@ -379,6 +364,14 @@
                     $("#carouselButton").children("span").addClass('fa-pause');
                 }
             });
+
+            $("#loginBtn").click(function () {
+                $("#loginModal").modal();
+            });
+            $("#reserveBtn").click(function () {
+                $("#reserveModal").modal();
+            });
+        });
     </script>
 
 
