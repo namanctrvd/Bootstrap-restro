@@ -1,3 +1,3 @@
-#Restaurant website
+# Restaurant website
 
-Code for my restaurant website I build using bootstrap
+### Code for my restaurant website I build using bootstrap
